@@ -1,0 +1,24 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "Bamazon shopping app for homework",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tycbold/Bamazon.git"
+  },
+  "author": "Tyler Seybold",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tycbold/Bamazon/issues"
+  },
+  "homepage": "https://github.com/tycbold/Bamazon#readme",
+  "dependencies": {
+    "console.table": "^0.9.1",
+    "inquirer": "^3.3.0",
+    "mysql": "^2.15.0"
+  }
+}
