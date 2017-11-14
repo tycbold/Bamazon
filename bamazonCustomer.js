@@ -99,7 +99,7 @@ function updateQuantity(item, itemName, quantityPurchased, newQuantity, totalCos
       }
     ], function(err, res){
   if (err) throw err;
-  console.log("You have successfully purchased " + quantityPurchased + " " + itemName + "!");
+  console.log("You have successfully purchased " + quantityPurchased + " " + itemName + "(s)!");
   console.log("Total cost: $" + totalCost);
   start();    
 
